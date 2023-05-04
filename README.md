@@ -4,7 +4,6 @@ Automated Coffee Tweet using Arduino and Python:
 
 This project uses an Arduino Rev3 board and a temperature sensor to detect when a user prepares a cup of coffee. Once the coffee is prepared, a Python script automatically tweets a message on Twitter indicating that the user has made a cup of coffee.
 
-
 **Requirements**
 
 Arduino Rev3 Board
@@ -17,9 +16,7 @@ Wiring
 
 Connect the temperature sensor to the Arduino board according to the following diagram:
 
-
-Temperature Sensor Wiring Diagram
-
+Temperature Sensor Wiring Diagram:
 
 **Usage**
 
@@ -40,6 +37,9 @@ Run the script using the command:
     python3 coffee_tweet.py
 The script will continuously monitor the temperature sensor and tweet a message on Twitter when the temperature rises above a certain threshold. This indicates that the user has made a cup of coffee.
 
+**Contributing**
+
+If you'd like to contribute to this project, please feel free to fork this repository and submit a pull request.
 
 **Acknowledgements**
 
