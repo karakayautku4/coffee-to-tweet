@@ -1,7 +1,7 @@
 from requests_oauthlib import OAuth1Session
 import os
 import json
-import main_app as app
+import coffee_tweet as app
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -10,7 +10,7 @@ consumer_key = os.getenv("CONSUMER_KEY")
 consumer_secret = os.getenv("CONSUMER_SECRET")
 
 # Be sure to add replace the text of the with the text you wish to Tweet. You can also add parameters to post polls, quote Tweets, Tweet with reply settings, and Tweet to Super Followers in addition to other features.
-payload = {"text": "Number of cup of coffee today: "}
+payload = {"text": f"Number of cup of coffee today: {app.amount_coffee}"}
 
 # Get request token
 request_token_url = "https://api.twitter.com/oauth/request_token?oauth_callback=oob&x_auth_access_type=write"
