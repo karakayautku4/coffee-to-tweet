@@ -42,6 +42,11 @@ Run the script using the command:
     python3 coffee_tweet.py
 The script will continuously monitor the temperature sensor and tweet a message on Twitter when the temperature rises above a certain threshold. This indicates that the user has made a cup of coffee.
 
+## Todo
+
+- [ ] Optimize create_tweet.py for Auth
+- [ ] Optimize other scripts.
+
 ## Contributing
 
 If you'd like to contribute to this project, please feel free to fork this repository and submit a pull request.
